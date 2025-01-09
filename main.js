@@ -1,30 +1,19 @@
 // Chilometri
-let chilometri = 'Chilometri da percorrere: 27';
-console.log(chilometri)
+const chilometri = 27;
+console.log(`Chilometri da percorrere: ${chilometri}`);
 
-let valoreAssolutoDistanza = chilometri.substr(-2);
-
-parseInt(valoreAssolutoDistanza);
 
 
 // Età
-let età = "Età del passeggero: 65";
-console.log(età)
+const età = 65;
+console.log(`Età del passeggero: ${età}`)
 
-let valoreAssolutoEtà = età.substr(-2);
 
-parseInt(valoreAssolutoEtà);
 
 // Biglietto
-let calcoloBiglietto = valoreAssolutoDistanza * 0.21;
 
-
-let costoBiglietto = `Il costo del biglietto è di € ${calcoloBiglietto}`
-console.log(costoBiglietto)
-
-
-if (valoreAssolutoEtà >= 65){
-    console.log(calcoloBiglietto = calcoloBiglietto - (calcoloBiglietto / 100 * 20))
+if (età >= 65){
+    console.log(`Il prezzo del biglietto è di € ${chilometri* 0.21} `)
 }
 
 
